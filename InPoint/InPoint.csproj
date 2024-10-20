@@ -23,6 +23,7 @@ and Event Grid—without the complexities of handling each provider separately.<
     <IncludeSymbols>True</IncludeSymbols>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageLicenseFile>License.txt</PackageLicenseFile>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
