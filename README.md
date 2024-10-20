@@ -1,5 +1,7 @@
 # InPoint 
 ### _NuGet Library: Simplifying Messaging Providers in .NET_
+[![NuGet Downloads](https://img.shields.io/nuget/dt/InPoint.svg)](https://github.com/Ethan0007/InPoint)
+[![NuGet Version](https://img.shields.io/nuget/v/InPoint.svg)](https://github.com/Ethan0007/InPoint)
 
 [![PubSub](https://github.com/Ethan0007/InPoint/blob/main/publish-subscribe.png?raw=true)](https://github.com/Ethan0007/InPoint/blob/main/publish-subscribe.png)
 
