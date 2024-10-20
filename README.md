@@ -65,10 +65,10 @@ Here’s how to implement a controller that uses the messaging service to publis
 [Route("api/[controller]")]
 public class MessageController : ControllerBase
 {
-    private readonly MessagePublisherFactory _publisherFactory;
+    private readonly InPointPublisherFactory _publisherFactory;
     private readonly IConfiguration _configuration;
 
-    public MessageController(MessagePublisherFactory publisherFactory, IConfiguration configuration)
+    public MessageController(InPointPublisherFactory publisherFactory, IConfiguration configuration)
     {
         _publisherFactory = publisherFactory;
         _configuration = configuration;

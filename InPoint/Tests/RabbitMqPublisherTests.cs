@@ -7,7 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xunit;
-
+/*
+ * OWNER: JOEVER MONCEDA
+ */
 namespace InPoint.Tests
 {
     public class RabbitMqPublisherTests

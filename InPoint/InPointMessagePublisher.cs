@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+/*
+ * OWNER: JOEVER MONCEDA
+ */
 namespace InPoint
 {
     public interface InPointMessagePublisher

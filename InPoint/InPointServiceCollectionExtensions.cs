@@ -1,7 +1,9 @@
 ﻿using InPoint.Factory;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-
+/*
+ * OWNER: JOEVER MONCEDA
+ */
 namespace InPoint
 {
     public static class InPointServiceCollectionExtensions
