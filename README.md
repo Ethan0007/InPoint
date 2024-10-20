@@ -92,10 +92,10 @@ You can also create a service that utilizes the messaging system to send notific
 ```
 public class NotificationService
 {
-    private readonly MessagePublisherFactory _publisherFactory;
+    private readonly InPointPublisherFactory _publisherFactory;
     private readonly IConfiguration _configuration;
 
-    public NotificationService(MessagePublisherFactory publisherFactory, IConfiguration configuration)
+    public NotificationService(InPointPublisherFactory publisherFactory, IConfiguration configuration)
     {
         _publisherFactory = publisherFactory;
         _configuration = configuration;
