@@ -1,0 +1,68 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationIcon>png-transparent-molecule-molecular-biology-computer-icons-others-biology-chemistry-dna-thumbnail.ico</ApplicationIcon>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>JOEVER MONCEDA</Authors>
+    <Description>The InPoint NuGet library simplifies the integration of multiple messaging providers in .NET applications. 
+It enables developers to configure and use various messaging systems—such as RabbitMQ, Event Hub, Service Bus, 
+and Event Grid—without the complexities of handling each provider separately.</Description>
+    <Copyright>2024</Copyright>
+    <PackageIcon>png-transparent-molecule-molecular-biology-computer-icons-others-biology-chemistry-dna-thumbnail.png</PackageIcon>
+    <RepositoryUrl>https://github.com/Ethan0007/InPoint</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <PackageTags>NuGet ; Messaging; EventHub; RabbitMQ; ServiceBus; EventGrid</PackageTags>
+    <PackageProjectUrl>https://github.com/Ethan0007/InPoint</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Title>InPoint</Title>
+    <SignAssembly>False</SignAssembly>
+    <IsPackable>true</IsPackable>
+    <IncludeSymbols>True</IncludeSymbols>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageLicenseFile>License.txt</PackageLicenseFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="png-transparent-molecule-molecular-biology-computer-icons-others-biology-chemistry-dna-thumbnail.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Users\almau\Downloads\png-transparent-molecule-molecular-biology-computer-icons-others-biology-chemistry-dna-thumbnail.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Messaging.EventGrid" Version="4.27.0" />
+    <PackageReference Include="Azure.Messaging.EventHubs" Version="5.11.5" />
+    <PackageReference Include="Azure.Messaging.ServiceBus" Version="7.18.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="8.0.2" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="8.0.2" />
+    <PackageReference Include="Moq" Version="4.20.72" />
+    <PackageReference Include="RabbitMQ.Client" Version="6.8.1" />
+    <PackageReference Include="xunit" Version="2.9.2" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.8.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="License.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
